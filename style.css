@@ -4,12 +4,30 @@ background-color: rgb(158, 129, 163);
 }
 
 h1{
-    background-color:rgb(0, 0, 0);
-    color:rgb(158, 129, 163);
-
+    background-image: ;
+    font-family:"Chalkduster", "fantasy"; 
+    text-align: center;
 }
 
-.italics{
-    
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+img{
+    margin:auto;
+    display: block;
 }
 
+ul{
+    text-align: center;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
