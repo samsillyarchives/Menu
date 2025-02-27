@@ -4,14 +4,13 @@ background-color: rgb(158, 129, 163);
 }
 
 h1{
-    background-image: ;
     font-family:"Chalkduster", "fantasy"; 
     text-align: center;
 }
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.33%;
   }
   
   .row:after {
@@ -23,6 +22,8 @@ h1{
 img{
     margin:auto;
     display: block;
+    width: 316px;
+    height: 316px;
 }
 
 ul{
@@ -31,3 +32,8 @@ ul{
   margin: 0;
   padding: 0;
 }
+  
+#description{
+    font-size: 30px;
+}
+
