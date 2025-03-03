@@ -30,6 +30,7 @@ img{
     display: block;
     width: 316px;
     height: 316px;
+      box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 ul{
@@ -52,5 +53,5 @@ ul{
 
 
 .back{
-  background-color: #fcfcfc76;
+ /* background-color: #fcfcfc76;*/
 }
