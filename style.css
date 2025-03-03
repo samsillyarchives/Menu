@@ -1,15 +1,17 @@
 
 body {
+background-image: url("scribble.JPG");
 background-color: #fcfcfc;
-background-image: url("scribbles.jpg");
 background-size: cover;
-color: rgb(103, 14, 14);
+color: rgb(138, 62, 62);
+
 }
 
 h1{
     font-family:"Chalkduster", "fantasy"; 
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.468);
+     /* -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(68, 0, 0);*/
 }
 
 .column {
@@ -35,9 +37,20 @@ ul{
     list-style-type: none;
   margin: 0;
   padding: 0;
+  text-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
   
 #description{
     font-size: 30px;
+    p{
+      font-size: 20px;
+      text-align: center;
+    }
 }
 
+
+
+
+.back{
+  background-color: #fcfcfc76;
+}
